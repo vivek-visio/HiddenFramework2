@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		11EA10D92C89C41800B7793A /* HiddenFramework2.h in Headers */ = {isa = PBXBuildFile; fileRef = 11EA10D82C89C41800B7793A /* HiddenFramework2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11EA10E32C89C42C00B7793A /* DScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA10DF2C89C42C00B7793A /* DScrollView.swift */; };
+		11EA10E42C89C42C00B7793A /* DScrollViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA10E02C89C42C00B7793A /* DScrollViewElement.swift */; };
+		11EA10E52C89C42C00B7793A /* DScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA10E12C89C42C00B7793A /* DScrollView+.swift */; };
+		11EA10E62C89C42C00B7793A /* DScrollViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EA10E22C89C42C00B7793A /* DScrollViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11EA10D52C89C41800B7793A /* HiddenFramework2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HiddenFramework2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11EA10D82C89C41800B7793A /* HiddenFramework2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiddenFramework2.h; sourceTree = "<group>"; };
+		11EA10DF2C89C42C00B7793A /* DScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollView.swift; sourceTree = "<group>"; };
+		11EA10E02C89C42C00B7793A /* DScrollViewElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollViewElement.swift; sourceTree = "<group>"; };
+		11EA10E12C89C42C00B7793A /* DScrollView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DScrollView+.swift"; sourceTree = "<group>"; };
+		11EA10E22C89C42C00B7793A /* DScrollViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollViewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				11EA10D82C89C41800B7793A /* HiddenFramework2.h */,
+				11EA10DF2C89C42C00B7793A /* DScrollView.swift */,
+				11EA10E12C89C42C00B7793A /* DScrollView+.swift */,
+				11EA10E22C89C42C00B7793A /* DScrollViewContainer.swift */,
+				11EA10E02C89C42C00B7793A /* DScrollViewElement.swift */,
 			);
 			path = HiddenFramework2;
 			sourceTree = "<group>";
@@ -93,6 +105,7 @@
 				TargetAttributes = {
 					11EA10D42C89C41800B7793A = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -129,6 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11EA10E32C89C42C00B7793A /* DScrollView.swift in Sources */,
+				11EA10E52C89C42C00B7793A /* DScrollView+.swift in Sources */,
+				11EA10E62C89C42C00B7793A /* DScrollViewContainer.swift in Sources */,
+				11EA10E42C89C42C00B7793A /* DScrollViewElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -288,6 +306,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

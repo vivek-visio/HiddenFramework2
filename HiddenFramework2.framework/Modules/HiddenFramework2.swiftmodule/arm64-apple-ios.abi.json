@@ -1,0 +1,1604 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HiddenFramework2",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DScrollView",
+        "printedName": "DScrollView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DScrollView",
+                "printedName": "HiddenFramework2.DScrollView",
+                "usr": "c:@M@HiddenFramework2@objc(cs)DScrollView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HiddenFramework2@objc(cs)DScrollView(im)initWithFrame:",
+            "mangledName": "$s16HiddenFramework211DScrollViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "HiddenFramework2",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HiddenFramework2.DScrollView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DScrollView",
+                    "printedName": "HiddenFramework2.DScrollView",
+                    "usr": "c:@M@HiddenFramework2@objc(cs)DScrollView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HiddenFramework2@objc(cs)DScrollView(im)initWithCoder:",
+            "mangledName": "$s16HiddenFramework211DScrollViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "HiddenFramework2",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HiddenFramework2@objc(cs)DScrollView",
+        "mangledName": "$s16HiddenFramework211DScrollViewC",
+        "moduleName": "HiddenFramework2",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIScrollView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HiddenFramework2",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DViewSafeArea",
+        "printedName": "DViewSafeArea",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "top",
+            "printedName": "top",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HiddenFramework2.DViewSafeArea.Type) -> HiddenFramework2.DViewSafeArea",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DViewSafeArea",
+                    "printedName": "HiddenFramework2.DViewSafeArea",
+                    "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HiddenFramework2.DViewSafeArea.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DViewSafeArea",
+                        "printedName": "HiddenFramework2.DViewSafeArea",
+                        "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HiddenFramework213DViewSafeAreaO3topyA2CmF",
+            "mangledName": "$s16HiddenFramework213DViewSafeAreaO3topyA2CmF",
+            "moduleName": "HiddenFramework2"
+          },
+          {
+            "kind": "Var",
+            "name": "leading",
+            "printedName": "leading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HiddenFramework2.DViewSafeArea.Type) -> HiddenFramework2.DViewSafeArea",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DViewSafeArea",
+                    "printedName": "HiddenFramework2.DViewSafeArea",
+                    "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HiddenFramework2.DViewSafeArea.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DViewSafeArea",
+                        "printedName": "HiddenFramework2.DViewSafeArea",
+                        "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HiddenFramework213DViewSafeAreaO7leadingyA2CmF",
+            "mangledName": "$s16HiddenFramework213DViewSafeAreaO7leadingyA2CmF",
+            "moduleName": "HiddenFramework2"
+          },
+          {
+            "kind": "Var",
+            "name": "trailing",
+            "printedName": "trailing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HiddenFramework2.DViewSafeArea.Type) -> HiddenFramework2.DViewSafeArea",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DViewSafeArea",
+                    "printedName": "HiddenFramework2.DViewSafeArea",
+                    "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HiddenFramework2.DViewSafeArea.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DViewSafeArea",
+                        "printedName": "HiddenFramework2.DViewSafeArea",
+                        "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HiddenFramework213DViewSafeAreaO8trailingyA2CmF",
+            "mangledName": "$s16HiddenFramework213DViewSafeAreaO8trailingyA2CmF",
+            "moduleName": "HiddenFramework2"
+          },
+          {
+            "kind": "Var",
+            "name": "bottom",
+            "printedName": "bottom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HiddenFramework2.DViewSafeArea.Type) -> HiddenFramework2.DViewSafeArea",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DViewSafeArea",
+                    "printedName": "HiddenFramework2.DViewSafeArea",
+                    "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HiddenFramework2.DViewSafeArea.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DViewSafeArea",
+                        "printedName": "HiddenFramework2.DViewSafeArea",
+                        "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HiddenFramework213DViewSafeAreaO6bottomyA2CmF",
+            "mangledName": "$s16HiddenFramework213DViewSafeAreaO6bottomyA2CmF",
+            "moduleName": "HiddenFramework2"
+          },
+          {
+            "kind": "Var",
+            "name": "vertical",
+            "printedName": "vertical",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HiddenFramework2.DViewSafeArea.Type) -> HiddenFramework2.DViewSafeArea",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DViewSafeArea",
+                    "printedName": "HiddenFramework2.DViewSafeArea",
+                    "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HiddenFramework2.DViewSafeArea.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DViewSafeArea",
+                        "printedName": "HiddenFramework2.DViewSafeArea",
+                        "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HiddenFramework213DViewSafeAreaO8verticalyA2CmF",
+            "mangledName": "$s16HiddenFramework213DViewSafeAreaO8verticalyA2CmF",
+            "moduleName": "HiddenFramework2"
+          },
+          {
+            "kind": "Var",
+            "name": "horizontal",
+            "printedName": "horizontal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HiddenFramework2.DViewSafeArea.Type) -> HiddenFramework2.DViewSafeArea",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DViewSafeArea",
+                    "printedName": "HiddenFramework2.DViewSafeArea",
+                    "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HiddenFramework2.DViewSafeArea.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DViewSafeArea",
+                        "printedName": "HiddenFramework2.DViewSafeArea",
+                        "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HiddenFramework213DViewSafeAreaO10horizontalyA2CmF",
+            "mangledName": "$s16HiddenFramework213DViewSafeAreaO10horizontalyA2CmF",
+            "moduleName": "HiddenFramework2"
+          },
+          {
+            "kind": "Var",
+            "name": "all",
+            "printedName": "all",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HiddenFramework2.DViewSafeArea.Type) -> HiddenFramework2.DViewSafeArea",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DViewSafeArea",
+                    "printedName": "HiddenFramework2.DViewSafeArea",
+                    "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HiddenFramework2.DViewSafeArea.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DViewSafeArea",
+                        "printedName": "HiddenFramework2.DViewSafeArea",
+                        "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HiddenFramework213DViewSafeAreaO3allyA2CmF",
+            "mangledName": "$s16HiddenFramework213DViewSafeAreaO3allyA2CmF",
+            "moduleName": "HiddenFramework2"
+          },
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HiddenFramework2.DViewSafeArea.Type) -> HiddenFramework2.DViewSafeArea",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DViewSafeArea",
+                    "printedName": "HiddenFramework2.DViewSafeArea",
+                    "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HiddenFramework2.DViewSafeArea.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DViewSafeArea",
+                        "printedName": "HiddenFramework2.DViewSafeArea",
+                        "usr": "s:16HiddenFramework213DViewSafeAreaO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16HiddenFramework213DViewSafeAreaO4noneyA2CmF",
+            "mangledName": "$s16HiddenFramework213DViewSafeAreaO4noneyA2CmF",
+            "moduleName": "HiddenFramework2"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DViewSafeArea",
+                "printedName": "HiddenFramework2.DViewSafeArea",
+                "usr": "s:16HiddenFramework213DViewSafeAreaO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DViewSafeArea",
+                "printedName": "HiddenFramework2.DViewSafeArea",
+                "usr": "s:16HiddenFramework213DViewSafeAreaO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HiddenFramework213DViewSafeAreaO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16HiddenFramework213DViewSafeAreaO2eeoiySbAC_ACtFZ",
+            "moduleName": "HiddenFramework2",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16HiddenFramework213DViewSafeAreaO9hashValueSivp",
+            "mangledName": "$s16HiddenFramework213DViewSafeAreaO9hashValueSivp",
+            "moduleName": "HiddenFramework2",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16HiddenFramework213DViewSafeAreaO9hashValueSivg",
+                "mangledName": "$s16HiddenFramework213DViewSafeAreaO9hashValueSivg",
+                "moduleName": "HiddenFramework2",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HiddenFramework213DViewSafeAreaO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16HiddenFramework213DViewSafeAreaO4hash4intoys6HasherVz_tF",
+            "moduleName": "HiddenFramework2",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16HiddenFramework213DViewSafeAreaO",
+        "mangledName": "$s16HiddenFramework213DViewSafeAreaO",
+        "moduleName": "HiddenFramework2",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HiddenFramework2",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DScrollViewContainer",
+        "printedName": "DScrollViewContainer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DScrollViewContainer",
+                "printedName": "HiddenFramework2.DScrollViewContainer",
+                "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewContainer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewContainer(im)initWithFrame:",
+            "mangledName": "$s16HiddenFramework220DScrollViewContainerC5frameACSo6CGRectV_tcfc",
+            "moduleName": "HiddenFramework2",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(axis:spacing:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DScrollViewContainer",
+                "printedName": "HiddenFramework2.DScrollViewContainer",
+                "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewContainer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Axis",
+                "printedName": "UIKit.NSLayoutConstraint.Axis",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UILayoutConstraintAxis"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HiddenFramework220DScrollViewContainerC4axis7spacingACSo22UILayoutConstraintAxisV_14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$s16HiddenFramework220DScrollViewContainerC4axis7spacingACSo22UILayoutConstraintAxisV_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "HiddenFramework2",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DScrollViewContainer",
+                "printedName": "HiddenFramework2.DScrollViewContainer",
+                "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewContainer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewContainer(im)initWithCoder:",
+            "mangledName": "$s16HiddenFramework220DScrollViewContainerC5coderACSo7NSCoderC_tcfc",
+            "moduleName": "HiddenFramework2",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "edgeTo",
+            "printedName": "edgeTo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIStackView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16HiddenFramework220DScrollViewContainerC6edgeToySo07UIStackD0CSgSo08UIScrollD0CF",
+            "mangledName": "$s16HiddenFramework220DScrollViewContainerC6edgeToySo07UIStackD0CSgSo08UIScrollD0CF",
+            "moduleName": "HiddenFramework2",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewContainer",
+        "mangledName": "$s16HiddenFramework220DScrollViewContainerC",
+        "moduleName": "HiddenFramework2",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIStackView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIStackView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HiddenFramework2",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DScrollViewElement",
+        "printedName": "DScrollViewElement",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DScrollViewElement",
+                "printedName": "HiddenFramework2.DScrollViewElement",
+                "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewElement"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewElement(im)initWithFrame:",
+            "mangledName": "$s16HiddenFramework218DScrollViewElementC5frameACSo6CGRectV_tcfc",
+            "moduleName": "HiddenFramework2",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(size:backgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DScrollViewElement",
+                "printedName": "HiddenFramework2.DScrollViewElement",
+                "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewElement"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HiddenFramework218DScrollViewElementC4size15backgroundColorACSo6CGSizeV_So7UIColorCtcfc",
+            "mangledName": "$s16HiddenFramework218DScrollViewElementC4size15backgroundColorACSo6CGSizeV_So7UIColorCtcfc",
+            "moduleName": "HiddenFramework2",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(width:height:backgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DScrollViewElement",
+                "printedName": "HiddenFramework2.DScrollViewElement",
+                "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewElement"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HiddenFramework218DScrollViewElementC5width6height15backgroundColorAC14CoreFoundation7CGFloatV_AISo7UIColorCtcfc",
+            "mangledName": "$s16HiddenFramework218DScrollViewElementC5width6height15backgroundColorAC12CoreGraphics7CGFloatV_AISo7UIColorCtcfc",
+            "moduleName": "HiddenFramework2",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(width:backgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DScrollViewElement",
+                "printedName": "HiddenFramework2.DScrollViewElement",
+                "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewElement"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HiddenFramework218DScrollViewElementC5width15backgroundColorAC14CoreFoundation7CGFloatV_So7UIColorCtcfc",
+            "mangledName": "$s16HiddenFramework218DScrollViewElementC5width15backgroundColorAC12CoreGraphics7CGFloatV_So7UIColorCtcfc",
+            "moduleName": "HiddenFramework2",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(height:backgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DScrollViewElement",
+                "printedName": "HiddenFramework2.DScrollViewElement",
+                "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewElement"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16HiddenFramework218DScrollViewElementC6height15backgroundColorAC14CoreFoundation7CGFloatV_So7UIColorCtcfc",
+            "mangledName": "$s16HiddenFramework218DScrollViewElementC6height15backgroundColorAC12CoreGraphics7CGFloatV_So7UIColorCtcfc",
+            "moduleName": "HiddenFramework2",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HiddenFramework2.DScrollViewElement?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DScrollViewElement",
+                    "printedName": "HiddenFramework2.DScrollViewElement",
+                    "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewElement"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewElement(im)initWithCoder:",
+            "mangledName": "$s16HiddenFramework218DScrollViewElementC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "HiddenFramework2",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewElement",
+        "mangledName": "$s16HiddenFramework218DScrollViewElementC",
+        "moduleName": "HiddenFramework2",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "edgeTo",
+            "printedName": "edgeTo(_:safeArea:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DViewSafeArea",
+                "printedName": "HiddenFramework2.DViewSafeArea",
+                "hasDefaultArg": true,
+                "usr": "s:16HiddenFramework213DViewSafeAreaO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC16HiddenFramework2E6edgeTo_8safeAreaA2B_AC09DViewSafeG0OtF",
+            "mangledName": "$sSo6UIViewC16HiddenFramework2E6edgeTo_8safeAreaA2B_AC09DViewSafeG0OtF",
+            "moduleName": "HiddenFramework2",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withBackground",
+            "printedName": "withBackground(color:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC16HiddenFramework2E14withBackground5colorABSo7UIColorC_tF",
+            "mangledName": "$sSo6UIViewC16HiddenFramework2E14withBackground5colorABSo7UIColorC_tF",
+            "moduleName": "HiddenFramework2",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withBackground",
+            "printedName": "withBackground(image:contentMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentMode",
+                "printedName": "UIKit.UIView.ContentMode",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIViewContentMode"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC16HiddenFramework2E14withBackground5image11contentModeABSo7UIImageC_So0a7ContentH0VtF",
+            "mangledName": "$sSo6UIViewC16HiddenFramework2E14withBackground5image11contentModeABSo7UIImageC_So0a7ContentH0VtF",
+            "moduleName": "HiddenFramework2",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addStatusBarCover",
+            "printedName": "addStatusBarCover(backgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC16HiddenFramework2E17addStatusBarCover15backgroundColorABSo7UIColorC_tF",
+            "mangledName": "$sSo6UIViewC16HiddenFramework2E17addStatusBarCover15backgroundColorABSo7UIColorC_tF",
+            "moduleName": "HiddenFramework2",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addScrollView",
+            "printedName": "addScrollView(_:withSafeArea:hasStatusBarCover:statusBarBackgroundColor:container:elements:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DScrollView",
+                "printedName": "HiddenFramework2.DScrollView",
+                "usr": "c:@M@HiddenFramework2@objc(cs)DScrollView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DViewSafeArea",
+                "printedName": "HiddenFramework2.DViewSafeArea",
+                "hasDefaultArg": true,
+                "usr": "s:16HiddenFramework213DViewSafeAreaO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DScrollViewContainer",
+                "printedName": "HiddenFramework2.DScrollViewContainer",
+                "usr": "c:@M@HiddenFramework2@objc(cs)DScrollViewContainer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC16HiddenFramework2E13addScrollView_12withSafeArea17hasStatusBarCover06statusL15BackgroundColor9container8elementsAbC07DScrollF0C_AC05DViewhI0OSbSo7UIColorCAC0sF9ContainerCABdtF",
+            "mangledName": "$sSo6UIViewC16HiddenFramework2E13addScrollView_12withSafeArea17hasStatusBarCover06statusL15BackgroundColor9container8elementsAbC07DScrollF0C_AC05DViewhI0OSbSo7UIColorCAC0sF9ContainerCABdtF",
+            "moduleName": "HiddenFramework2",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withSize",
+            "printedName": "withSize(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC16HiddenFramework2E8withSizeyABSo6CGSizeVF",
+            "mangledName": "$sSo6UIViewC16HiddenFramework2E8withSizeyABSo6CGSizeVF",
+            "moduleName": "HiddenFramework2",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withHeight",
+            "printedName": "withHeight(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC16HiddenFramework2E10withHeightyAB14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo6UIViewC16HiddenFramework2E10withHeightyAB12CoreGraphics7CGFloatVF",
+            "moduleName": "HiddenFramework2",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withWidth",
+            "printedName": "withWidth(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC16HiddenFramework2E9withWidthyAB14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo6UIViewC16HiddenFramework2E9withWidthyAB12CoreGraphics7CGFloatVF",
+            "moduleName": "HiddenFramework2",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/visioapps\/Desktop\/HiddenFramework2\/HiddenFramework2\/DScrollView+.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4800,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/visioapps\/Desktop\/HiddenFramework2\/HiddenFramework2\/DScrollViewContainer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 390,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

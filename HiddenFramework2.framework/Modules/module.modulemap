@@ -1,0 +1,6 @@
+framework module HiddenFramework2 {
+  umbrella header "HiddenFramework2.h"
+  export *
+
+  module * { export * }
+}

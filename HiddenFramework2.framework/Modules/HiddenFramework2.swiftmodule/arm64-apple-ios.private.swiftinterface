@@ -1,0 +1,54 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name HiddenFramework2
+@_exported import HiddenFramework2
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DScrollView : UIKit.UIScrollView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc deinit
+}
+public enum DViewSafeArea {
+  case top, leading, trailing, bottom, vertical, horizontal, all, none
+  public static func == (a: HiddenFramework2.DViewSafeArea, b: HiddenFramework2.DViewSafeArea) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension UIKit.UIView {
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func edgeTo(_ view: UIKit.UIView, safeArea: HiddenFramework2.DViewSafeArea = .none) -> UIKit.UIView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func withBackground(color: UIKit.UIColor) -> UIKit.UIView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func withBackground(image: UIKit.UIImage, contentMode: UIKit.UIView.ContentMode = .scaleAspectFit) -> UIKit.UIView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func addStatusBarCover(backgroundColor: UIKit.UIColor = .white) -> UIKit.UIView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func addScrollView(_ scrollView: HiddenFramework2.DScrollView, withSafeArea: HiddenFramework2.DViewSafeArea = .none, hasStatusBarCover: Swift.Bool = false, statusBarBackgroundColor: UIKit.UIColor = .white, container: HiddenFramework2.DScrollViewContainer, elements: UIKit.UIView...) -> UIKit.UIView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func withSize(_ size: CoreFoundation.CGSize) -> UIKit.UIView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func withHeight(_ height: CoreFoundation.CGFloat) -> UIKit.UIView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func withWidth(_ width: CoreFoundation.CGFloat) -> UIKit.UIView
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DScrollViewContainer : UIKit.UIStackView {
+  @_Concurrency.MainActor(unsafe) convenience public init(axis: UIKit.NSLayoutConstraint.Axis = .vertical, spacing: CoreFoundation.CGFloat = 0)
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func edgeTo(_ scrollView: UIKit.UIScrollView) -> UIKit.UIStackView?
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DScrollViewElement : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) convenience public init(size: CoreFoundation.CGSize, backgroundColor: UIKit.UIColor = .white)
+  @_Concurrency.MainActor(unsafe) convenience public init(width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat, backgroundColor: UIKit.UIColor = .white)
+  @_Concurrency.MainActor(unsafe) convenience public init(width: CoreFoundation.CGFloat, backgroundColor: UIKit.UIColor = .white)
+  @_Concurrency.MainActor(unsafe) convenience public init(height: CoreFoundation.CGFloat, backgroundColor: UIKit.UIColor = .white)
+  @objc deinit
+}
+extension HiddenFramework2.DViewSafeArea : Swift.Equatable {}
+extension HiddenFramework2.DViewSafeArea : Swift.Hashable {}
